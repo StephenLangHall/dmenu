@@ -1,0 +1,2 @@
+#!/bin/sh
+printf "$(date "+%H:%M")\n$(date "+%h %d")" | dmenu
